@@ -101,7 +101,7 @@ public class SortCountryAndZoneTest {
     }
 
     @Test
-    public void checkGeoZonesSorting() {
+    public void checkGeoZonesOrderTest() {
         driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
         List<WebElement> countries = driver.findElements(By.cssSelector(".dataTable .row a:not([title])"));
 
